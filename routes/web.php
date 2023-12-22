@@ -19,3 +19,9 @@ Route::prefix('/auth')->group(function () {
     });
 });
 
+Route::prefix('/app')->group(function () {
+    Route::get('/home', function () {
+        return view('app.home');
+    });
+});
+

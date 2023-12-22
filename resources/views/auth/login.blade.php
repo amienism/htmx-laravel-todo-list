@@ -2,7 +2,7 @@
 
 @extends('layouts.auth')
 
-@section('title', 'Home')
+@section('title', 'Login')
 
 @section('content')
     <div class="wrapper flex flex-col justify-center items-center">
